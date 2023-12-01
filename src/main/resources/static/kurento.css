@@ -1,0 +1,30 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 40px;
+}
+
+video {
+    background-color: #000; /* Change the video background color */
+    border: 2px solid #fff; /* Change the video border color */
+    border-radius: 4px;/* Add border radius for a rounded appearance */
+}
+
+
+#console {
+    background-color: #f0f0f0; /* Change the console background color */
+    border: 1px solid #ccc; /* Change the console border color */
+    border-radius: 4px; /* Add border radius for a rounded appearance */
+    overflow-y: auto;
+    width: 100%;
+    height: 120px;
+}
+
+.col-md-2 {
+    width: 100px; /* Increase width as needed */
+    padding-top: 0; /* Remove padding or adjust as needed */
+}
