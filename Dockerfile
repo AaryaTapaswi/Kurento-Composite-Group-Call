@@ -4,7 +4,7 @@ COPY . .
 RUN mvn package
 
 # Use an official OpenJDK image as the runtime stage
-FROM openjdk:22-slim-bullseye
+FROM aaryatapaswi/openjdk21-ubuntu
 
 # Set the working directory
 WORKDIR /app
